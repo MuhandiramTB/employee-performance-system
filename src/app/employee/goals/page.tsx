@@ -14,23 +14,17 @@ import {
 import { 
   Plus,
   Calendar,
-  Tag,
-  Flag,
   Clock,
   CheckCircle,
-  Star,
-  ChevronRight,
-  ChevronLeft,
-  Edit2,
-  Trash2,
   XCircle,
-  AlertCircle
+  AlertCircle,
+  Edit2,
+  Trash2
 } from 'lucide-react';
 import { useState } from 'react';
 import DashboardLayout from '@/components/layout/DashboardLayout';
 
 export default function GoalsPage() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [showNewGoalForm, setShowNewGoalForm] = useState(false);
 
   return (
