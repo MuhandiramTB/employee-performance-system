@@ -1,4 +1,5 @@
-import { Metadata } from 'next';
+"use client";
+
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { 
@@ -8,7 +9,6 @@ import {
   Star, 
   MessageSquare, 
   BarChart2,
-  Users,
   Settings,
   AlertCircle,
   Home,
@@ -16,12 +16,6 @@ import {
   Search
 } from 'lucide-react';
 import Link from 'next/link';
-import Image from 'next/image';
-
-export const metadata: Metadata = {
-  title: 'Dashboard',
-  description: 'Overview of your performance and tasks',
-};
 
 export default function DashboardPage() {
   return (

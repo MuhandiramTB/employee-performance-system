@@ -5,11 +5,8 @@ import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
 import { 
   CheckCircle,
-  XCircle,
   Clock,
-  AlertCircle,
-  User,
-  MessageSquare,
+  Star,
   ChevronRight,
   ChevronLeft
 } from 'lucide-react';
@@ -57,7 +54,7 @@ export default function GoalApprovalPage() {
                   <p className="text-2xl font-semibold text-white mt-1">3</p>
                 </div>
                 <div className="h-12 w-12 rounded-xl bg-red-500/10 flex items-center justify-center">
-                  <XCircle className="h-6 w-6 text-red-500" />
+                  <Star className="h-6 w-6 text-red-500" />
                 </div>
               </div>
             </div>
@@ -71,7 +68,7 @@ export default function GoalApprovalPage() {
                   <p className="text-2xl font-semibold text-white mt-1">12</p>
                 </div>
                 <div className="h-12 w-12 rounded-xl bg-blue-500/10 flex items-center justify-center">
-                  <User className="h-6 w-6 text-blue-500" />
+                  <Star className="h-6 w-6 text-blue-500" />
                 </div>
               </div>
             </div>
@@ -89,7 +86,7 @@ export default function GoalApprovalPage() {
                   <div className="flex items-start justify-between">
                     <div className="flex items-center gap-3">
                       <div className="h-10 w-10 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-500 flex items-center justify-center">
-                        <User className="h-5 w-5 text-white" />
+                        <Star className="h-5 w-5 text-white" />
                       </div>
                       <div>
                         <h3 className="text-white font-medium">John Doe</h3>
@@ -126,7 +123,7 @@ export default function GoalApprovalPage() {
                   <div className="flex items-start justify-between">
                     <div className="flex items-center gap-3">
                       <div className="h-10 w-10 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-500 flex items-center justify-center">
-                        <User className="h-5 w-5 text-white" />
+                        <Star className="h-5 w-5 text-white" />
                       </div>
                       <div>
                         <h3 className="text-white font-medium">Jane Smith</h3>
