@@ -132,11 +132,11 @@ export default function FeedbackPage() {
                   </div>
 
                   <div>
-                    <p className="text-sm text-slate-400">Your leadership in the team training sessions has been invaluable. The team's productivity has significantly improved thanks to your efforts.</p>
+                    <p className="text-sm text-slate-400">Your leadership in the team training sessions has been invaluable. The team&apos;s productivity has significantly improved thanks to your efforts.</p>
                   </div>
 
                   <div className="bg-white/5 rounded-lg p-3 border border-white/10">
-                    <p className="text-sm text-slate-400">Thank you for the feedback! I'm glad I could contribute to the team's growth.</p>
+                    <p className="text-sm text-slate-400">Thank you for the feedback! I&apos;m glad I could contribute to the team&apos;s growth.</p>
                   </div>
                 </div>
               </div>

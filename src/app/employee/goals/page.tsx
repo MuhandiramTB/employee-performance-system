@@ -5,39 +5,28 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { 
-  Bell, 
-  Filter, 
-  ArrowUpDown,
-  MoreVertical,
-  User,
-  Plus,
-  Home,
-  Target,
-  CheckCircle,
-  Star,
-  MessageSquare,
-  BarChart2,
-  Settings,
-  LogOut,
-  Menu,
-  X,
-  Users,
-  Calendar,
-  Edit2,
-  Trash2,
-  XCircle,
-  Clock,
-  AlertCircle
-} from 'lucide-react';
-import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
+import { 
+  Plus,
+  Calendar,
+  Tag,
+  Flag,
+  Clock,
+  CheckCircle,
+  Star,
+  ChevronRight,
+  ChevronLeft,
+  Edit2,
+  Trash2,
+  XCircle,
+  AlertCircle
+} from 'lucide-react';
 import { useState } from 'react';
-import Link from 'next/link';
 import DashboardLayout from '@/components/layout/DashboardLayout';
 
 export default function GoalsPage() {
