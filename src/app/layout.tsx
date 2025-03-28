@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Employee Performance System",
-  description: "Manage employee performance and goals efficiently",
+  description: "Track and manage employee performance goals and feedback",
 };
 
 export default function RootLayout({
@@ -17,14 +17,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <div className="flex min-h-screen flex-col">
-          <Header />
           <main className="flex-1 bg-gray-50">
             {children}
           </main>
-          <Footer />
         </div>
       </body>
     </html>
