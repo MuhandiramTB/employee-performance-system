@@ -12,7 +12,7 @@ import {
   Check
 } from 'lucide-react';
 import { useState } from 'react';
-import DashboardLayout from '@/components/layout/DashboardLayout';
+import DashboardLayout from '@/components/layout/DashboardEmployee';
 
 export default function ReportsPage() {
   const [selectedMetrics, setSelectedMetrics] = useState<string[]>([]);

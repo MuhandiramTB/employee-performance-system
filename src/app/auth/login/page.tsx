@@ -133,7 +133,7 @@ export default function LoginPage() {
             <div className="text-sm text-center text-slate-400">
               Don't have an account?{" "}
               <Link
-                href="/authregister"
+                href="/auth/register"
                 className="text-indigo-400 hover:text-indigo-300 transition-colors"
               >
                 Sign up

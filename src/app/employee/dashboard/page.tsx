@@ -12,7 +12,7 @@ import {
   ChevronRight,
   Calendar
 } from 'lucide-react';
-import DashboardLayout from '@/components/layout/DashboardLayout';
+import DashboardLayout from '@/components/layout/DashboardEmployee';
 
 export default function DashboardPage() {
   return (

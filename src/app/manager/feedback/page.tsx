@@ -12,7 +12,7 @@ import {
   ChevronRight,
   ChevronLeft
 } from 'lucide-react';
-import DashboardLayout from '@/components/layout/DashboardEmployee';
+import DashboardLayout from '@/components/layout/DashboardManager';
 
 export default function FeedbackPage() {
   return (

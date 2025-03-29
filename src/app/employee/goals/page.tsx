@@ -22,7 +22,7 @@ import {
   Trash2
 } from 'lucide-react';
 import { useState } from 'react';
-import DashboardLayout from '@/components/layout/DashboardLayout';
+import DashboardLayout from '@/components/layout/DashboardEmployee';
 
 export default function GoalsPage() {
   const [showNewGoalForm, setShowNewGoalForm] = useState(false);
