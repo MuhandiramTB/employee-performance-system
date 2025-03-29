@@ -15,7 +15,6 @@ import {
   UserCog,
   Bell,
   LayoutDashboard,
-  Lock,
   Target,
   Database
 } from 'lucide-react';

@@ -28,7 +28,7 @@ export default function LoginPage() {
     setIsLoading(true);
 
     // TODO: Implement actual login logic here
-    // For now, we'll just simulate a delay and redirect
+    // For now, we&apos;ll just simulate a delay and redirect
     setTimeout(() => {
       setIsLoading(false);
       router.push('/admin/dashboard');
@@ -131,7 +131,7 @@ export default function LoginPage() {
           </CardContent>
           <CardFooter className="flex flex-col space-y-4">
             <div className="text-sm text-center text-slate-400">
-              Don't have an account?{" "}
+              Don&apos;t have an account?{" "}
               <Link
                 href="/authregister"
                 className="text-indigo-400 hover:text-indigo-300 transition-colors"

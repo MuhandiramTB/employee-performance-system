@@ -8,9 +8,7 @@ import {
   Lock, 
   Eye, 
   EyeOff,
-  Building2,
   User,
-  Briefcase,
   ArrowRight,
   CheckCircle2,
   XCircle
